@@ -1,5 +1,5 @@
 #!/usr/bin/python
-
+# from https://forums.raspberrypi.com/viewtopic.php?t=324412
 # .-------------------------------------------------------------------------.
 # | This program monitors for changes in 'lusb' reports and files in the    |
 # | /dev directory when a USB device is connected or removed. It basically  |
