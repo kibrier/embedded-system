@@ -1,6 +1,6 @@
 from gpiozero import LEDBoard, LED
 from time import sleep
-from signal import pause
+# from signal import pause
 
 # leds = LEDBoard('BOARD8', 'BOARD10', 'BOARD12', 'BOARD16', 'BOARD32', 'BOARD36', 'BOARD38', 'BOARD40')
 led0 = LED('BOARD8')
