@@ -44,9 +44,7 @@ try:
     pause()
 
 except KeyboardInterrupt:
-    reading = False
-    sleep(0.5)
-    lcd.clear()
+    pass
 
 finally:
     reading = False
