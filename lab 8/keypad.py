@@ -12,7 +12,7 @@ entered_chars = ""
 lcd = LCD(width=16,rows=2)
 
 def cleanup():
-    global keypad, lcd
+    global keypad
     keypad.cleanup()
     lcd.clear()
 
@@ -29,7 +29,7 @@ def characters_entered(key):
         print(entered_chars)
 
 def keys_pressed(key):
-    global entered_chars, lcd
+    global entered_chars
     
     if key == "*" and len(entered_chars) > 0:
         if len(entered_chars) > 16:
@@ -45,7 +45,7 @@ def keys_pressed(key):
 
 def correct_passcode_entered():
     print("Passcode accepted. Access granted.")
-    global keypad, lcd
+    global keypad
     try:
         keypad.unregisterKeyPressHandler(key_pressed)
         keypad.registerKeyPressHandler(keys_pressed)
