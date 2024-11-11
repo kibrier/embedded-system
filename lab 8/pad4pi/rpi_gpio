@@ -1,5 +1,5 @@
 #!/usr/bin/python
-
+# from https://github.com/brettmclean/pad4pi/blob/develop/pad4pi/rpi_gpio.py
 import RPi.GPIO as GPIO
 import time
 from threading import Timer
