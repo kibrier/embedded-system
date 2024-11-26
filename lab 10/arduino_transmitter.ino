@@ -1,5 +1,5 @@
-int lo_plus = 5;
-int lo_minus = 6;
+int lo_plus = 10;
+int lo_minus = 11;
 
 void setup() {
 // initialize the serial communication:
